@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.outer {
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  margin-right: 15px;
+  position: relative;
+  left: 4px;
+}
+.inner img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  position: relative;
+  top: 2.5px;
+  left: 0.3px;
+  border: 2px #fff solid;
+}
+.name {
+  font-size: 10px;
+  color: rgb(78, 77, 77);
+}

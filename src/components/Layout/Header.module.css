@@ -1,0 +1,71 @@
+.header {
+  position: fixed;
+  background-color: #fff;
+  height: 70px;
+  padding: 15px;
+  margin-bottom: 200px;
+  border: 1px solid #c4c4c4;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav {
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 25px;
+  width: 200px;
+  background-color: #f4f4f4;
+  border: 1px solid #d8d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input input {
+  background-color: #f4f4f4;
+  border: none;
+  text-align: left;
+  color: #c7c7c7;
+}
+.nav input:focus {
+  border-color: #c7c7c7;
+  outline: none;
+  border-radius: 2px;
+}
+.find {
+  color: #c7c7c7;
+  font-size: 10px;
+  margin-right: 5px;
+}
+.nav .logo {
+  height: 50px;
+  width: 150px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.nav ul li {
+  margin: 10px;
+}
+.nav ul img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.i {
+  font-size: 20px;
+}
+.link {
+  color: #000;
+  cursor: pointer;
+}
+.notification {
+  left: -350px;
+}

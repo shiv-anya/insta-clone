@@ -1,0 +1,24 @@
+.box {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  background-color: #f1efef;
+  padding: 0.7rem;
+  margin: 0.7rem 0;
+}
+.img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.right {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  color: #b4b4b4;
+}

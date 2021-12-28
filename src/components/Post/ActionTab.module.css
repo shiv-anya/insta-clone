@@ -1,0 +1,30 @@
+.whole {
+  padding: 0.7rem 0.7rem 0 0.7rem;
+}
+.outerAction {
+  display: flex;
+  justify-content: space-between;
+}
+.i {
+  margin-right: 12px;
+}
+.likes {
+  font-size: 13px;
+  font-weight: 900;
+  padding: 0.3rem 0;
+}
+.captionBar {
+  display: flex;
+  font-size: 13px;
+}
+.user {
+  font-weight: 900;
+}
+.caption {
+  color: #333;
+}
+.viewComments {
+  font-size: 14px;
+  color: #a8a4a4;
+  margin: 5px 0;
+}

@@ -1,0 +1,28 @@
+.user {
+  display: flex;
+  padding: 1rem 0;
+  font-size: 13px;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.names {
+  margin-left: 20px;
+}
+.username {
+  font-weight: 900;
+}
+
+.nickname {
+  color: #929191;
+}
+
+.user img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+}

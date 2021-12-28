@@ -1,0 +1,21 @@
+.head {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.imgTab {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.imgTab p {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #333;
+}
+.head img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}

@@ -1,0 +1,57 @@
+img {
+  width: 250px;
+}
+.authform {
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.authform input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f4f4f4;
+  border: 0.2px solid #dad7d7;
+  border-radius: 2px;
+  margin: 5px;
+}
+.authform input:focus {
+  border-color: #c7c7c7;
+  outline: 0.1px solid #c7c7c7;
+  border-radius: 2px;
+}
+.authform button {
+  display: block;
+  width: 100%;
+  background-color: #0095f6;
+  padding: 8px 9px;
+  margin: 12px 5px;
+  color: #fff;
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 530;
+}
+.card {
+  margin-top: 15px;
+  width: 330px;
+  padding: 1rem;
+  text-align: center;
+}
+.card p,
+a {
+  font-size: 12px;
+  display: inline;
+  color: #333;
+}
+p {
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+  color: #0095f6;
+  cursor: pointer;
+}

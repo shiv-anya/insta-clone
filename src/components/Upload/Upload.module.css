@@ -1,0 +1,48 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+.times {
+  text-align: end;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.content p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.content input[type="file"] {
+  margin-top: 20px;
+}
+.content progress {
+  margin: 30px;
+}
+.content button {
+  border: none;
+  background-color: #0095f6;
+  padding: 0.7rem 0.9rem;
+  border-radius: 2px;
+  color: #fff;
+}
+.content input[type="text"] {
+  display: block;
+  width: 250px;
+  margin-top: 30px;
+  padding: 0.7rem 0.9rem;
+  border: none;
+  outline: none;
+  outline-offset: 0;
+  border-bottom: #c4c4cc 2px solid;
+}
+.i {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}

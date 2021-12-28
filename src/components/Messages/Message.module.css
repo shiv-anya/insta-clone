@@ -1,0 +1,15 @@
+.card {
+  width: 950px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  top: 90px;
+}
+
+.messages {
+  border-right: 1px solid #c4c4c4;
+  width: 330px;
+}

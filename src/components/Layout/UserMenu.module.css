@@ -1,0 +1,8 @@
+.link {
+  display: flex;
+  padding: 0.7rem;
+  align-items: center;
+}
+.link p {
+  margin-left: 10px;
+}

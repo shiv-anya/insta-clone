@@ -1,0 +1,23 @@
+.box {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  align-items: center;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.activity {
+  font-size: 12px;
+}
+.time {
+  color: #b4b4b4;
+  font-size: 12px;
+}
+.username {
+  color: #0095f6;
+  font-size: 12px;
+  margin: 0 5px;
+}

@@ -1,0 +1,42 @@
+.commentTimer {
+  font-size: 10px;
+  color: #aca9a9;
+  font-weight: lighter;
+  padding: 0.2rem 0.7rem 0.7rem 0.7rem;
+}
+.commentInp {
+  padding: 0.7rem;
+  border-top: solid 1px #c4c4c4;
+}
+.commentInp form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentInp form div {
+  display: flex;
+}
+.commentInp form input {
+  width: 500px;
+
+  border: none;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.commentInp form input::placeholder {
+  color: #979292;
+  font-weight: 500;
+}
+.commentInp form input:focus {
+  border: none;
+  outline: none;
+  outline-offset: 0;
+}
+.commentInp form button {
+  border: none;
+  background-color: #fff;
+  color: #8fccf5;
+}
+.i {
+  font-size: 30px;
+}

@@ -1,0 +1,14 @@
+.main {
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  position: fixed;
+  left: 800px;
+}
+.right ul {
+  list-style: none;
+}
+

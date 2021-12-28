@@ -1,0 +1,13 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.grey {
+  color: #838383;
+}
+.func {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+}
