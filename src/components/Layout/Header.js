@@ -15,7 +15,6 @@ import { useState } from "react/cjs/react.development";
 import DropDown from "../../UI/DropDown";
 import UserMenu from "./UserMenu";
 import Notifications from "./Notifications";
-import Modal from "../../UI/Modal";
 import Upload from "../Upload/Upload";
 
 const Header = (props) => {
