@@ -1,8 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useContext } from "react";
 import instaLogo from "../../assets/Instagram_logo.svg";
 import Card from "../../UI/Card";
 import classes from "./AuthForm.module.css";
-import { useContext } from "react";
 import AuthContext from "../../store/auth-ctx";
 import { useHistory } from "react-router";
 import Loader from "../../UI/Loader";
@@ -80,14 +79,12 @@ const AuthForm = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((authUser) => {
         setIsLoading(false);
-        console.log(authUser);
         authCtx.login(authUser.user.uid);
         history.replace("/user");
         authCtx.userHandler(authUser.user.displayName);
       })
       .catch((error) => {
         const errorMessage = error.message;
-        console.log(errorMessage);
         alert(errorMessage);
         authCtx.userHandler(username);
       });
