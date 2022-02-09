@@ -5,10 +5,10 @@ const UserBar = (props) => {
   return (
     <div className={classes.user}>
       <div className={classes.info}>
-        <img src={user} alt="user" />
+        <img src={props.user} alt="user" />
         <div className={classes.names}>
-          <p className={classes.username}>username</p>
-          <p className={classes.nickname}>nickname</p>
+          <p className={classes.username}>{props.username}</p>
+          <p className={classes.nickname}>{props.nickname}</p>
         </div>
       </div>
       <div>

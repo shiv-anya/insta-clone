@@ -1,4 +1,4 @@
-import User1 from "../../assets/User1.jpg";
+import User from "../../assets/user.png";
 import classes from "./Suggestions.module.css";
 import UserBar from "./UserBar";
 
@@ -11,7 +11,12 @@ const Suggestions = () => {
       </div>
       <div>
         <div>
-          <UserBar func="Follow" />
+          <UserBar
+            func="Follow"
+            user={User}
+            username="nikhil_078"
+            nickname="nickz"
+          />
         </div>
       </div>
     </div>
