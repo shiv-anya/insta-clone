@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import classes from "./Header.module.css";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import DropDown from "../../UI/DropDown";
 import UserMenu from "./UserMenu";
 import Notifications from "./Notifications";
